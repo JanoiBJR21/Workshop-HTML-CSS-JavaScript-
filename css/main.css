@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600);
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+nav {
+    padding: 20px;
+    background-color: rgb(54, 63, 72);
+}
+
+.cover {
+    background-image: url("/images/room.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.my-form {
+    background: white;
+    padding: 40px 40px 40px;
+    width: 400px;
+}
+
+.my-form h2 {
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+}
+
+.cover .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.cover .my-form .btn {
+    width: 100%;
+}
+
+.benefit {
+    padding: 50px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-item img {
+    margin-bottom: 10px;
+}
+
+.T1 {
+    font-size: 24px;
+    color: rgb(128, 128, 128);
+    font-weight: bold;
+}
+
+.T2 {
+    text-align: center;
+}
